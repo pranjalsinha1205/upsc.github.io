@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+    #yojana, #kurukshetra {
+        background-color: lightblue; 
+        padding: 10px; 
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #yojana, #kurukshetra {
+        background-color: lightgreen;
+        padding: 5px;
+    }
+
+    h1, h2, h3, h4 {
+        font-size: 1.2rem;
+    }
+}
+
+*{
+    padding: 10px;
+}
+
+body{
+    background-color: black;
+}
+
+.header{
+    color: white;
+}
+
+hr{
+    padding: none;
+    margin: none;
+    height: 15px;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#yojana{
+    background-color: cyan;
+    border: 5px solid white;
+    margin: 5px;
+    transition: 2s;
+}
+
+#yojana:hover{
+    border-radius: 5%;
+    margin: 20px;
+}
+
+#kurukshetra{
+    background-color: turquoise;
+    border: 5px solid white;
+    margin: 5px;
+    transition: 2s;
+}
+
+#kurukshetra:hover{
+    border-radius: 5%;
+    margin: 20px;
+}
+
+h3{
+    text-align: center;
+}
